@@ -1,9 +1,24 @@
 aid: ula
 name: Ula
-description: 'Ula is a company surfaced as a portfolio company of prosus-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: marketplace. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Ula was a B2B wholesale commerce platform for small neighborhood retail
+  shops (warungs), providing supply chain technology, inventory management, and credit
+  access across Indonesia, India, and Singapore. Backed by Prosus Ventures, Ula closed
+  its core operations in late 2023 and ula.app now hosts a retrospective of the company.
+  No public API, developer portal, or SDKs were ever published, and no developer
+  subdomains resolve.'
 url: https://raw.githubusercontent.com/api-evangelist/ula/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://ula.app/images/logo-ula-green.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Marketplace
+- B2B
+- Commerce
+- Retail
+- Indonesia
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +45,12 @@ maintainers:
 common:
 - type: Website
   url: https://ula.app
+- type: DomainSecurity
+  url: security/ula-domain-security.yml
+- type: LLMsTxt
+  url: llms/ula-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

@@ -1,0 +1,20 @@
+# Ula
+
+> Ula was a B2B wholesale commerce platform for small neighborhood retail shops (warungs), providing supply chain technology, inventory management, and credit access across Indonesia (East, West, and Central Java), India, and Singapore. Backed by Prosus Ventures, Ula closed its core operations in late 2023; ula.app now hosts a retrospective of the company. At its peak the platform served over 100,000 warungs, processing roughly 500,000 orders per month at a $300M sales run rate.
+
+Ula never published a public developer program: no developer portal, API documentation, OpenAPI specification, SDKs, or status page were found, and no developer subdomains (api/docs/developers.ula.app) resolve. The company is defunct and no public API surface exists.
+
+## Company
+
+- [Website](https://ula.app): Retrospective site for Ula following the closure of its core operations
+- Contact: hello@ula.app
+
+## API Evangelist profile
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/ula/refs/heads/main/apis.yml): Machine-readable profile of Ula in the API Evangelist network
+
+<!--
+generated: 2026-07-21
+method: generated
+source: Generated from apis.yml and live fetch of https://ula.app (no provider llms.txt; /llms.txt returns 403 and no docs host exists)
+-->
