@@ -7,6 +7,17 @@ description: 'Ula was a B2B wholesale commerce platform for small neighborhood r
   No public API, developer portal, or SDKs were ever published, and no developer
   subdomains resolve.'
 url: https://raw.githubusercontent.com/api-evangelist/ula/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
